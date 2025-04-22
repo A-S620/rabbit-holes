@@ -5,3 +5,4 @@ out
 gen
 /.jekyll-cache/
 /_site/
+/Gemfile.lock

@@ -1,11 +1,11 @@
 ---
-title: Artisan Bread Baking
+title: Bread
 emoji: 🍞
 date_started: 2023-06-15
 tags: [cooking, hobbies, creative]
 status: active
 slug: baking
-connected_interests: [japanese-literature, pixel-art]
+connected_holes: [japanese-literature, pixel-art]
 ---
 
 ## Why I love baking bread

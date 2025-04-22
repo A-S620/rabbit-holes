@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Graph dimensions
-    const width = document.getElementById('interest-graph').clientWidth;
-    const height = document.getElementById('interest-graph').clientHeight;
+    const width = document.getElementById('holes-graph').clientWidth;
+    const height = document.getElementById('holes-graph').clientHeight;
 
     // Create SVG
-    const svg = d3.select('#interest-graph')
+    const svg = d3.select('#holes-graph')
         .append('svg')
         .attr('width', width)
         .attr('height', height);
@@ -42,20 +42,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     function generateGraphFromJekyll() {
-        // Get all interest nodes from the document
-        const interestElements = document.querySelectorAll('[data-interest-slug]');
+        // Get all hole nodes from the document
+        const holeElements = document.querySelectorAll('[data-hole-slug]');
         const nodes = [];
         const links = [];
         const nodeMap = {};
 
         // Create nodes
-        interestElements.forEach(el => {
+        holeElements.forEach(el => {
             const node = {
-                id: el.dataset.interestSlug,
-                name: el.dataset.interestTitle,
-                status: el.dataset.interestStatus || 'active',
-                date: el.dataset.interestDate || '',
-                emoji: el.dataset.interestEmoji || '📌',
+                id: el.dataset.holeSlug,
+                name: el.dataset.holeTitle,
+                status: el.dataset.holeStatus || 'active',
+                date: el.dataset.holeDate || '',
+                emoji: el.dataset.holeEmoji || '📌',
                 radius: 30
             };
             nodes.push(node);
@@ -63,9 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Create links
-        interestElements.forEach(el => {
-            const sourceId = el.dataset.interestSlug;
-            const connections = el.dataset.interestConnections;
+        holeElements.forEach(el => {
+            const sourceId = el.dataset.holeSlug;
+            const connections = el.dataset.holeConnections;
 
             if (connections) {
                 connections.split(',').forEach(targetId => {
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 window.location.href = d.url;
             } else {
                 // Try to construct URL from slug
-                window.location.href = `/interests/${d.id}/`;
+                window.location.href = `/holes/${d.id}/`;
             }
         });
 

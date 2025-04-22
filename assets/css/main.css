@@ -261,7 +261,7 @@ a:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .interests-grid {
+    .holes-grid {
         grid-template-columns: 1fr;
     }
 
