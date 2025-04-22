@@ -1,0 +1,10 @@
+version: '3'
+services:
+  site:
+    image: jekyll/jekyll:4
+    command: bash -c "gem install webrick && jekyll serve --livereload"
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll

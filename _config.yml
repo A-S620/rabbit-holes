@@ -1,7 +1,7 @@
 title: Rabbit Holes
 description: A collection of my rabbit holes and mini projects
-baseurl: ""
-url: ""
+baseurl: "/rabbit-holes"
+url: "https://a-s620.github.io/"
 
 # Build settings
 markdown: kramdown
