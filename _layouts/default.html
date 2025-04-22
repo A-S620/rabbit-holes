@@ -37,6 +37,7 @@
 </footer>
 
 {% if page.url contains 'graph' %}
+{% include graph-data.html %}
 <script src="{{ site.baseurl }}/assets/js/graph.js"></script>
 {% endif %}
 </body>

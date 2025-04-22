@@ -2,15 +2,44 @@
 layout: default
 title: Home
 ---
+<div class="all-holes-list">
+    <h2>All Rabbit Holes</h2>
+    <table class="holes-table">
+        <thead>
+        <tr>
+            <th class="hole-emoji-cell"></th>
+            <th>Name</th>
+            <th>Started</th>
+            <th>Tags</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for hole in site.holes %}
+        <tr>
+            <td class="hole-emoji-cell">{{ hole.emoji }}</td>
+            <td><a href="{{ site.baseurl }}{{ hole.url }}">{{ hole.title }}</a></td>
+            <td>{{ hole.date_started | date: "%b %Y" }}</td>
+            <td>
+                {% for tag in hole.tags limit:3 %}
+                <span class="tag small">{{ tag }}</span>
+                {% endfor %}
+            </td>
+            <td><span class="status-indicator {{ hole.status }}">{{ hole.status }}</span></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
 
-<div class="welcome-section">
-    <h1>Rabbit Holes</h1>
-    <p>Welcome to my collection of rabbit holes and mini projects!</p>
+<div class="view-graph-button">
+    <a href="{{ site.baseurl }}/graph" class="button">View Rabbit Hole Network</a>
 </div>
 
 <div class="holes-grid">
+    <h2>Explore Rabbit Holes</h2>
     {% for hole in site.holes %}
-    <a href="{{ hole.url }}" class="hole-card">
+    <a href="{{ site.baseurl }}{{ hole.url }}" class="hole-card">
         <div class="hole-card-content">
             {% if hole.emoji %}
             <div class="hole-emoji">{{ hole.emoji }}</div>
@@ -28,8 +57,4 @@ title: Home
         </div>
     </a>
     {% endfor %}
-</div>
-
-<div class="view-graph-button">
-    <a href="{{ site.baseurl }}/graph" class="button">View Rabbit Hole Network</a>
 </div>

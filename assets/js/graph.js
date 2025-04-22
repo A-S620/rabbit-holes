@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .force('collide', d3.forceCollide().radius(d => d.radius * 1.2));
 
     // Load the graph data
-    fetch('/assets/js/graph-data.json')
+    fetch(GRAPH_DATA_URL)
         .then(response => response.json())
         .then(data => {
             createGraph(data);
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 window.location.href = d.url;
             } else {
                 // Try to construct URL from slug
-                window.location.href = `/holes/${d.id}/`;
+                window.location.href = `${BASE_URL}/holes/${d.id}/`;
             }
         });
 
