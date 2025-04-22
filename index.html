@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+
+<div class="welcome-section">
+    <h1>My Rabbit Holes</h1>
+    <p>Welcome to my collection of rabbit holes and mini projects!</p>
+</div>
+
+<div class="holes-grid">
+    {% for hole in site.holes %}
+    <a href="{{ hole.url }}" class="hole-card">
+        <div class="hole-card-content">
+            {% if hole.emoji %}
+            <div class="hole-emoji">{{ hole.emoji }}</div>
+            {% endif %}
+            <h2>{{ hole.title }}</h2>
+            <p class="hole-excerpt">{{ hole.excerpt | strip_html | truncatewords: 25 }}</p>
+            <div class="hole-metadata">
+                <span class="hole-date">{{ hole.date_started | date: "%B %Y" }}</span>
+                <div class="hole-tags">
+                    {% for tag in hole.tags limit:3 %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+
+<div class="view-graph-button">
+    <a href="{{ site.baseurl }}/graph" class="button">View Rabbit Hole Network</a>
+</div>

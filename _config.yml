@@ -1,0 +1,27 @@
+title: Rabbit Holes
+description: A collection of my rabbit holes and mini projects
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  holes:
+    output: true
+    permalink: /holes/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "holes"
+    values:
+      layout: "hole"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

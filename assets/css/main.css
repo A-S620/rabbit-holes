@@ -1,0 +1,276 @@
+/* Base Styles */
+:root {
+    --primary-color: #ff85a2;
+    --secondary-color: #a6d8d4;
+    --accent-color: #ffd166;
+    --text-color: #424b54;
+    --background-color: #fef6f8;
+    --card-color: #ffffff;
+    --header-color: #ffd6e0;
+    --footer-color: #a6d8d4;
+    --border-radius: 12px;
+    --shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e06f8b;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+    background-color: var(--header-color);
+    padding: 1rem 0;
+    box-shadow: var(--shadow);
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.site-nav a {
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--footer-color);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+
+/* Content */
+.site-content {
+    padding: 2rem 0;
+}
+
+/* Home Page */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.holes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.hole-card {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.hole-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.hole-card-content {
+    padding: 1.5rem;
+}
+
+.hole-emoji {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.hole-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.hole-excerpt {
+    color: #667;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.hole-metadata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: auto;
+}
+
+.hole-date {
+    color: #888;
+}
+
+.hole-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+}
+
+.view-graph-button {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e06f8b;
+    color: white;
+}
+
+/* Hole Page */
+.hole-container {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.hole-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hole-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hole-content {
+    margin-bottom: 2rem;
+}
+
+.hole-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hole-content p {
+    margin-bottom: 1rem;
+}
+
+.hole-content ul, .hole-content ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.connected-holes {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed var(--secondary-color);
+}
+
+.connected-holes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.connected-holes li a {
+    display: block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s;
+}
+
+.connected-holes li a:hover {
+    background-color: #8bc2bd;
+}
+
+.return-links {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .site-header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .site-nav a:first-child {
+        margin-left: 0;
+    }
+}

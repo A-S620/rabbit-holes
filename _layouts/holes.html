@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="hole-container">
+    <div class="hole-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.emoji %}
+        <div class="hole-emoji">{{ page.emoji }}</div>
+        {% endif %}
+        <div class="hole-metadata">
+            <span class="hole-date">Fell in: {{ page.date_started | date: "%B %Y" }}</span>
+            <span class="hole-tags">
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </span>
+        </div>
+    </div>
+
+    <div class="hole-content">
+        {{ content }}
+    </div>
+
+    {% if page.connected_holes %}
+    <div class="connected-holes">
+        <h3>Connected Rabbit Holes</h3>
+        <ul>
+            {% for connection in page.connected_holes %}
+            {% assign connected_hole = site.holes | where: "slug", connection | first %}
+            {% if connected_hole %}
+            <li><a href="{{ connected_hole.url }}">{{ connected_hole.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <div class="return-links">
+        <a href="{{ site.baseurl }}/">Back to All Rabbit Holes</a> |
+        <a href="{{ site.baseurl }}/graph">View Rabbit Hole Network</a>
+    </div>
+</div>
