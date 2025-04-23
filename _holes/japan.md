@@ -1,9 +1,9 @@
 ---
-title: Test
-emoji: 💜
+title: Japan
+emoji: 🇯🇵
 date_started: 2025-23-04
 tags: [music, culture, language]
-status: inactive
+status: recent
 slug: test
-connected_holes: [japanese-citypop]
+connected_holes: [citypop]
 ---
