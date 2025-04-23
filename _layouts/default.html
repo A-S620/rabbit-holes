@@ -19,7 +19,7 @@
         <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
         <nav class="site-nav">
             <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/graph">Rabbit Hole Network</a>
+            <a href="{{ site.baseurl }}/graph">Connections</a>
         </nav>
     </div>
 </header>
@@ -37,7 +37,6 @@
 </footer>
 
 {% if page.url contains 'graph' %}
-{% include graph-data.html %}
 <script src="{{ site.baseurl }}/assets/js/graph.js"></script>
 {% endif %}
 </body>

@@ -1,10 +1,31 @@
 ---
 layout: default
-title: Rabbit Hole Network
+title: Connections
 ---
 
+<!-- Hidden data elements to store hole information -->
+<div style="display: none;">
+    {% for hole in site.holes %}
+    <div class="hole-data"
+         data-slug="{{ hole.slug }}"
+         data-title="{{ hole.title }}"
+         data-emoji="{{ hole.emoji }}"
+         data-status="{{ hole.status }}"
+         data-connections="{{ hole.connected_holes | join: ',' }}"
+         data-url="{{ site.baseurl }}{{ hole.url }}">
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Configuration globals - renamed to avoid conflicts -->
+<script>
+    window.graphConfig = {
+        baseUrl: "{{ site.baseurl }}"
+    };
+</script>
+
 <div class="graph-container">
-    <h1>Rabbit Hole Network</h1>
+    <h1>Connections</h1>
     <p>Explore how my rabbit holes connect to each other</p>
 
     <div class="graph-controls">

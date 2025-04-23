@@ -1,4 +1,46 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Generate the graph data dynamically from hidden HTML elements
+    function generateGraphData() {
+        const holeElements = document.querySelectorAll('.hole-data');
+        const nodes = [];
+        const links = [];
+        const nodeMap = {};
+
+        // Process each hole element
+        holeElements.forEach(el => {
+            const slug = el.dataset.slug;
+            const title = el.dataset.title;
+            const emoji = el.dataset.emoji || '📌';
+            const status = el.dataset.status || 'active';
+            const connections = el.dataset.connections ? el.dataset.connections.split(',') : [];
+
+            // Create node
+            const node = {
+                id: slug,
+                name: title,
+                emoji: emoji,
+                status: status,
+                radius: 30,
+                url: el.dataset.url
+            };
+
+            nodes.push(node);
+            nodeMap[slug] = node;
+
+            // Create links
+            connections.forEach(target => {
+                if (target.trim()) {
+                    links.push({
+                        source: slug,
+                        target: target.trim()
+                    });
+                }
+            });
+        });
+
+        return { nodes, links };
+    }
+
     // Graph dimensions
     const width = document.getElementById('holes-graph').clientWidth;
     const height = document.getElementById('holes-graph').clientHeight;
@@ -29,59 +71,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .force('center', d3.forceCenter(width / 2, height / 2))
         .force('collide', d3.forceCollide().radius(d => d.radius * 1.2));
 
-    // Load the graph data
-    fetch(GRAPH_DATA_URL)
-        .then(response => response.json())
-        .then(data => {
-            createGraph(data);
-        })
-        .catch(error => {
-            console.error('Error loading graph data:', error);
-            // If unable to load external data, generate from Jekyll collections
-            generateGraphFromJekyll();
-        });
-
-    function generateGraphFromJekyll() {
-        // Get all hole nodes from the document
-        const holeElements = document.querySelectorAll('[data-hole-slug]');
-        const nodes = [];
-        const links = [];
-        const nodeMap = {};
-
-        // Create nodes
-        holeElements.forEach(el => {
-            const node = {
-                id: el.dataset.holeSlug,
-                name: el.dataset.holeTitle,
-                status: el.dataset.holeStatus || 'active',
-                date: el.dataset.holeDate || '',
-                emoji: el.dataset.holeEmoji || '📌',
-                radius: 30
-            };
-            nodes.push(node);
-            nodeMap[node.id] = node;
-        });
-
-        // Create links
-        holeElements.forEach(el => {
-            const sourceId = el.dataset.holeSlug;
-            const connections = el.dataset.holeConnections;
-
-            if (connections) {
-                connections.split(',').forEach(targetId => {
-                    targetId = targetId.trim();
-                    if (nodeMap[targetId]) {
-                        links.push({
-                            source: sourceId,
-                            target: targetId
-                        });
-                    }
-                });
-            }
-        });
-
-        createGraph({ nodes, links });
-    }
+    // Generate graph data directly from HTML elements
+    const graphData = generateGraphData();
+    createGraph(graphData);
 
     function createGraph(graph) {
         // Ensure all nodes have appropriate values
@@ -145,8 +137,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (d.url) {
                 window.location.href = d.url;
             } else {
-                // Try to construct URL from slug
-                window.location.href = `${BASE_URL}/holes/${d.id}/`;
+                // Use window.graphConfig to get the base URL
+                const baseUrl = window.graphConfig ? window.graphConfig.baseUrl : '';
+                window.location.href = baseUrl + '/holes/' + d.id + '/';
             }
         });
 
