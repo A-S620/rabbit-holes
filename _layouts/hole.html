@@ -29,7 +29,7 @@ layout: default
             {% for connection in page.connected_holes %}
             {% assign connected_hole = site.holes | where: "slug", connection | first %}
             {% if connected_hole %}
-            <li><a href="{{ connected_hole.url }}">{{ connected_hole.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ connected_hole.url }}">{{ connected_hole.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>
