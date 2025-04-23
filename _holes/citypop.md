@@ -7,6 +7,7 @@ status: recent
 slug: citypop
 connected_holes: [japan]
 ---
+That moment when I discover music that I loved all along.
 
 ## How I found this
 

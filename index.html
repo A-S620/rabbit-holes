@@ -45,7 +45,7 @@ title: Home
             <div class="hole-emoji">{{ hole.emoji }}</div>
             {% endif %}
             <h2>{{ hole.title }}</h2>
-            <p class="hole-excerpt">{{ hole.excerpt | strip_html | truncatewords: 25 }}</p>
+            <p class="hole-excerpt">{{ hole.excerpt | strip_html | truncatewords: 20 }}</p>
             <div class="hole-metadata">
                 <span class="hole-date">{{ hole.date_started | date: "%B %Y" }}</span>
                 <div class="hole-tags">
