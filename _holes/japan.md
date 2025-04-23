@@ -5,5 +5,5 @@ date_started: 2025-23-04
 tags: [music, culture, language]
 status: recent
 slug: test
-connected_holes: [citypop]
+connected_holes: []
 ---
