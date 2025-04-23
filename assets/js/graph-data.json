@@ -1,39 +1,17 @@
 {
   "nodes": [
     {
-      "id": "bread",
-      "name": "Bread",
-      "emoji": "🍞",
-      "status": "active",
-      "radius": 30
-    },
-    {
-      "id": "japanese-literature",
-      "name": "Japanese Literature",
-      "emoji": "📚",
+      "id": "japanese-citypop",
+      "name": "Japanese Citypop",
+      "emoji": "🎶",
       "status": "recent",
-      "radius": 30
-    },
-    {
-      "id": "pixel-art",
-      "name": "Pixel Art",
-      "emoji": "🎮",
-      "status": "active",
       "radius": 30
     }
   ],
   "links": [
     {
-      "source": "bread",
-      "target": "japanese-literature"
-    },
-    {
-      "source": "bread",
-      "target": "pixel-art"
-    },
-    {
-      "source": "japanese-literature",
-      "target": "pixel-art"
+      "source": "japanese-citypop",
+      "target": "japanese-citypop"
     }
   ]
 }
