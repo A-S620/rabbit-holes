@@ -5,7 +5,7 @@ date_started: 2025-23-04
 tags: [music, culture, language]
 status: recent
 slug: citypop
-connected_holes: [japan]
+connected_holes: [citypop-set]
 ---
 That moment when I discover music that I loved all along.
 
@@ -29,6 +29,12 @@ At the time artists used unique musical vocabulary and new Japanese music techno
 - **Makoto Matushita** - ["Love Was Really Gone"](https://youtu.be/aef1j0PM3Sg?si=0IEA2EUvMPKZTOoZ)
 - **Anri** - ["Remember Summer Days"](https://www.youtube.com/watch?v=yHKb38-nl3U)
 - **Miki Matsubara** - ["Stay With Me"](https://www.youtube.com/watch?v=VEe_yIbW64w) STAY WITH MEEEEE
+
+## Notable Albums
+<div style="background: white; padding: 15px; padding-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transform: rotate(-2deg); transition: all 0.3s ease; max-width: 300px; margin: 2rem auto; text-align: center;">
+  <img src="{{ site.baseurl }}/assets/pics/midnight-cruisin.png" alt="midnight cruisin'" style="width: 100%; display: block; margin-bottom: 10px;">
+  <a style="font-size: 0.9rem; color: #667; margin-top: 10px;" href="https://www.youtube.com/playlist?list=OLAK5uy_mp74viktC1T1WtO0gMLEtG4o-tqJnPRQM">Midnight Cruisin' Album (1982)</a>
+</div>
 
 ## What makes a citypop tune?
 - Smoothness - the songs' gotta wash over you like a ray of sunshine on a breezy day. This is done by adding in Jazz chords and melodies.
