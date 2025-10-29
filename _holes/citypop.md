@@ -5,7 +5,7 @@ date_started: 2025-23-04
 tags: [music, culture, language]
 status: recent
 slug: citypop
-connected_holes: [citypop-set]
+connected_holes: []
 ---
 That moment when I discover music that I loved all along.
 
