@@ -2,10 +2,14 @@
 title: Old Games
 emoji: 🕹
 date_started: 2025-29-11
-tags: [games, culture, retro]
+tags:
+  - games
+  - culture
+  - retro
 status: recent
 slug: old_games
-connected_holes: []
+connected_holes:
+  - stardewvalley
 ---
 This is to keep track of all the games I've played on the R36HD Retro Handheld Video Game Console. I bought this console because I was craving the nostalgia of being drawn into a game for hours. 
 
