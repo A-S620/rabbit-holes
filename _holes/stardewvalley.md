@@ -8,6 +8,6 @@ tags:
 status: recent
 slug: stardew_valley
 connected_holes:
-  - oldgames
+  - old_games
 ---
 
