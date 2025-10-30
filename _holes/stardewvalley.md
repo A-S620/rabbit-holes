@@ -7,7 +7,6 @@ tags:
   - culture
 status: recent
 slug: stardew_valley
-connected_holes:
-  - old_games
+connected_holes: [old_games]
 ---
 
