@@ -8,8 +8,7 @@ tags:
   - retro
 status: recent
 slug: old_games
-connected_holes:
-  - stardew_valley
+connected_holes: [stardew_valley]
 ---
 This is to keep track of all the games I've played on the R36HD Retro Handheld Video Game Console. I bought this console because I was craving the nostalgia of being drawn into a game for hours. 
 
