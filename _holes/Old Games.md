@@ -23,10 +23,14 @@ This hole is an attempt to mindfully indulge in the games. The thing I'm most ex
 The first game I wanted to start off with is Barbie. The console has Tekken too,  but Im drawn to Barbie more. I distinctly remember playing it. So maybe this is adulthood, sitting on my couch, in my pyjamas, skincare done and playing Barbie on a retro console.
 ## Barbie
 Like most young girls, I grew up on the [[Barbie Movies]], and also played some Barbie games.
-The game I remember playing is called Barbie: Princess and the Pauper. It's still pretty engaging though I'm not sure about the retro music soundtrack. For all the games really, Im still getting used to the sound again. Ive also seen that this has Barbie and the 12 dancing princesses, the movie had an incredible soundtrack so maybe the game will too.
+
+The game I remember playing is called Barbie: Princess and the Pauper. It's still pretty engaging though I'm not sure about the retro music soundtrack. For all the games really, Im still getting used to the sound again. 
+
+Ive also seen that this has Barbie and the 12 dancing princesses, the movie had an incredible soundtrack so maybe the game will too.
 
 ## Harvest Moon
 Im trying Harvest moon for the first time ever and its really reminding me of [[Stardew Valley]]! I wonder if Concerned Ape was inspired by it?
 
+## RPG
 I think I'd like to try more RPG games specifically, since I do enjoy storytelling elements in my games. There seems to be a fair few of them on this console! So many to get through.
 

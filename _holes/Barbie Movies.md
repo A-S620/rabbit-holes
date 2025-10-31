@@ -10,7 +10,11 @@ slug: barbie_movies
 connected_holes:
   - old_games
 ---
-I loved watching Barbie movies when I was younger, here are the ones I remember watching and enjoying:
+I loved watching Barbie movies when I was younger. Compared to other media for young girls at the time, I think Barbie actually did well. Rewatching some of these movies as an adult is still enjoyable. Barbie movies had well developed main characters and plot lines that focused on themes of bravery, friendship and kindness. 
+
+Unlike Disney's princess movies which often made romance as the main plot point, Barbie didnt. Most Barbie films had a Ken adjacent character, but romantic love wasnt the main plot, it was merely a sub plot or side plot in the stories. Protagonists had depth rather than just being a vague character that little girls could project on to. Thats not to say I didnt enjoy Disney movies either, I did. I just think that the cultural impact of Barbie on young girls specifically is underrated.
+
+Here are the ones I've watched and enjoyed:
 1. Barbie in the Nutcracker
 2. Barbie as Rapunzel
 3. Barbie as the Princess and the Pauper
