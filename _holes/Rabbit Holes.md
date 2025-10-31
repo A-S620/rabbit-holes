@@ -19,6 +19,7 @@ One extremely cool thing about how this whole system works, is that Ive connecte
 
 # The anatomy of a hole
 Every hole file starts with:
+
 `---
 title: Rabbit Holes
 emoji: 🐇
@@ -32,9 +33,10 @@ slug: rabbit_holes
 connected_holes:  []
 ---`
 
+
 Which is the basic information that organises all the holes. Pretty self explanatory. The only key thing here is to create a connection, you need to put the slug of the connected hole and also update that hole with the slug of your new hole, if you dont do this it breaks the D3.js graph.
 
 After this, you have free reign to write any markdown you want.
 
 In some places you may notice`[[ ... ]]` syntax, which is the syntax Obsidian uses to create connections between pages. Ive left this in because it doesnt really impact the UX of the web app and makes the local notes more useful to me.  I get a handy graph locally, which shows the connections between the pages:
-[[Screenshot_20251031_164957_Obsidian.jpg]]
+![[Screenshot_20251031_164957_Obsidian.jpg]]
