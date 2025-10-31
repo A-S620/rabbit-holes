@@ -39,3 +39,14 @@ Which is the basic information that organises all the holes. Pretty self explana
 After this, you have free reign to write any markdown you want.
 
 In some places you may notice`[[ ... ]]` syntax, which is the syntax Obsidian uses to create connections between pages. Ive left this in because it doesnt really impact the UX of the web app and makes the local notes more useful to me.  I get a handy graph locally, which shows the connections between the pages.
+
+# Curate Or Be Consumed
+Back in 2021/2022, the first GPT models were released, of which I was a beta user. I used things like GitHub Copilot and ChatGPT, amazed at just how incredible these tools were. But almost 3 years on, I have a very different view on AI. I still think that AI is a useful tool if used correctly, specifically in the context of work. What i didnt anticipate, however, is the rise of useless slop that can now be found in every corner of the Internet. 
+
+The Internet was once a place that allowed authentic self expression, creativity and facilitated human connection. Now, its filled with bots and AI generated content that means nothing. The humanness has been stripped and media is now prompted not created. And I dont anticipate this changing anytime soon, especially as models become better. So there's only two options left: Curate or Be Consumed.
+
+The rise in popularity of digital gardens and second brains, days to me that deep down humans crave depth and connection with the media theyre consuming. Yes our brains are slowly being trained to live off short form content, but I dont think it'll ever be truly satisfying. Short form content is like fast food, but media or art that has depth is like a gourmet meal, which you savour and enjoy.
+
+All this to say, this system is my attempt or rather final strand of hope at building a more mindful relationship with the things I consume. I want to be able to savour what I experience and think about things for long enough so that I can form well thought out opinions on it.
+
+The thoughts I document here might be confusing or written poorly (especially since I'm not using a grammar checker on my phone), but I think thats okay. The point is that these are my thoughts and Im documenting them here as I go along. And whilst it pains the perfectionist in me to write poorly constructed sentences, Im simply learning to live with it. These pages will evolve as I evolve.
