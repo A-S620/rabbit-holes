@@ -5,12 +5,11 @@ date_started: 2025-31-11
 tags:
   - tech
   - productivity
-  - note taking
+  - notetaking
 status: recent
 slug: rabbit_holes
 connected_holes: []
 ---
-
 Rabbit Holes is a custom web app I built inspired by the concept of digital gardens. I first came across this in this [video by Anna Howard](https://youtu.be/0tY7Z53QJo8?si=3EhIRarRR4dMl8ZJ) 
 I was inspired to do my own version of this, which was how Rabbit Holes was born. Each `hole` is a topic or area that interests me. The goal is to simply allow myself to follow my curiosity organically, document my thoughts and eventually build a graph of 'connections'. I wanted it to be fun and cute (which I think it is!).
 
