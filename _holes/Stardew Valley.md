@@ -7,7 +7,7 @@ tags:
   - RPG
 status: recent
 slug: stardew_valley
-connected_holes:[old_games]
+connected_holes: [old_games]
 ---
 Stardew Valley is a farming RPG created by Eric Barone (ConcernedApe) and first released in 2016. I bought this game back in October 2021 and have since spent over 150 hours on it in the past few years.
 

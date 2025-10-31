@@ -7,7 +7,7 @@ tags:
   - retro
 status: recent
 slug: barbie_movies
-connected_holes:[old_games]
+connected_holes: [old_games]
 ---
 I loved watching Barbie movies when I was younger. Compared to other media for young girls at the time, I think Barbie actually did well. Rewatching some of these movies as an adult is still enjoyable. Barbie movies had well developed main characters and plot lines that focused on themes of bravery, friendship and kindness. 
 
