@@ -38,5 +38,4 @@ Which is the basic information that organises all the holes. Pretty self explana
 
 After this, you have free reign to write any markdown you want.
 
-In some places you may notice`[[ ... ]]` syntax, which is the syntax Obsidian uses to create connections between pages. Ive left this in because it doesnt really impact the UX of the web app and makes the local notes more useful to me.  I get a handy graph locally, which shows the connections between the pages:
-![[Screenshot_20251031_164957_Obsidian.jpg]]
+In some places you may notice`[[ ... ]]` syntax, which is the syntax Obsidian uses to create connections between pages. Ive left this in because it doesnt really impact the UX of the web app and makes the local notes more useful to me.  I get a handy graph locally, which shows the connections between the pages.
