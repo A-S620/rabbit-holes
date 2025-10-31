@@ -8,7 +8,7 @@ tags:
   - note taking
 status: recent
 slug: rabbit_holes
-connected_holes:[]
+connected_holes: []
 ---
 
 Rabbit Holes is a custom web app I built inspired by the concept of digital gardens. I first came across this in this [video by Anna Howard](https://youtu.be/0tY7Z53QJo8?si=3EhIRarRR4dMl8ZJ) 
