@@ -7,6 +7,7 @@ tags:
   - culture
   - language
   - retro
+  - Japan
 status: inactive
 slug: citypop
 connected_holes: []
