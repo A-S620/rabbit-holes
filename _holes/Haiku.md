@@ -8,8 +8,8 @@ tags:
   - poetry
   - language
 status: recent
-slug: rabbit_holes
-connected_holes:  []
+slug: haiku
+connected_holes: []
 ---
 Haiku is a form of Japanese poetry made up of 3 verses with a 5-7-5 syllable pattern (17 in total).
 
