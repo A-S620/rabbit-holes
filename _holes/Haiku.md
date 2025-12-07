@@ -14,10 +14,17 @@ connected_holes: []
 Haiku is a form of Japanese poetry made up of 3 verses with a 5-7-5 syllable pattern (17 in total).
 
 Here are some of my Haikus:
+> Little actions bring little joys,
+> Like fresh laundry folded, and clean.
+> To love is easy.
+
+> Sugar, eggs and flour.
+> Whisked and raised in cloud of steam,
+> Ji Dan Gao is joy.
+
 > The cold bites my bones,
 > I sip sunshine in my cup,
 > Tea warms from inside.
-
 
 > Jade stands on the ledge,
 > The sun is shyly hiding,
