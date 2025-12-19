@@ -1,7 +1,7 @@
 ---
 title: Rabbit Holes
 emoji: 🐇
-date_started: 2025-31-11
+date_started: 2025-11-31
 tags:
   - tech
   - productivity
@@ -23,7 +23,7 @@ Every hole file starts with:
 `---
 title: Rabbit Holes
 emoji: 🐇
-date_started: 2025-31-11
+date_started: 2025-11-31
 tags:
   - tech
   - productivity

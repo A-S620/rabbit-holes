@@ -1,7 +1,7 @@
 ---
 title: Barbie Movies
 emoji: 👠
-date_started: 2025-30-11
+date_started: 2025-11-30
 tags:
   - culture
   - retro

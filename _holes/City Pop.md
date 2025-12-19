@@ -1,7 +1,7 @@
 ---
 title: Citypop
 emoji: 🎶
-date_started: 2025-23-04
+date_started: 2025-04-23
 tags:
   - music
   - culture

@@ -1,7 +1,7 @@
 ---
 title: Haiku
 emoji: 🌊
-date_started: 2025-04-12
+date_started: 2025-12-12
 tags:
   - Japan
   - literature

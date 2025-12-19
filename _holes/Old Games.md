@@ -1,7 +1,7 @@
 ---
 title: Old Games
 emoji: 🕹
-date_started: 2025-29-11
+date_started: 2025-11-29
 tags:
   - games
   - culture
