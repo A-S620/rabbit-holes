@@ -13,7 +13,7 @@ status: recent
 slug: hafiz
 connected_holes: []
 ---
-> Hafiz (Shams-ud-din Muhammad) is one of the greatest persian poets from the 13th Centuary. 
+> Hafiz (Shams-ud-din Muhammad) is one of the greatest Persian poets from the 13th Century. 
 
 # First Impressions
 
