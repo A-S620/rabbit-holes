@@ -37,3 +37,5 @@ To God's Ward"
 
 This poem tells me that Hafiz believes there are only 2 paths a life can take, whilst both lead to the same destination, one journey is joyous and easy whilst the other is difficult and painful.
 
+
+
