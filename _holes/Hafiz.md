@@ -26,7 +26,7 @@ As I read the poems, I felt held. Like I could truly lay my head down and rest f
 This book singlehandedly shifted my entire perspective on God, from an authoritative judge to an all loving, joyful friend. And as someone who doesnt necessarily believe they have a grand purpose to fulfill, I found that "to love" is what it really is all about. I often find myself going back to Hafiz when life feels heavier than I can bare.
 
 # Parts of the whole
-So on this page I want to record my reflections on his poetry as I continue to reread them. The order of peoms follows the order in the book I heard God Laughing By Daniel Ladinsky, with each heading being the corresponding title in the book. This is my analysis of what I think each verse means.
+So on this page I want to record my reflections on his poetry as I continue to reread them. The order of peoms follows the order in the book I heard God Laughing By Daniel Ladinsky, with each heading being the corresponding title in the book. This is my analysis of what I think each poem means.
 
 ## A Divine Invitation
 "We can come to God
