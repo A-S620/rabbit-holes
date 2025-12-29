@@ -88,6 +88,8 @@ To house all of your pleasures."
 
 I see this as we are holding on to the parts of ourselves we need to let go, yet can't bring ourselves to. So we keep these things in the dark and "bad" place in ourselves so that we can revisit them when no one is watching us. Because perhaps we feel we can only be more of ourselves there.
 
+I also see attachments as a synonym for addictions/ desires.
+
 "So that you can sneak away
 From time to time
 And try to squeeze light
@@ -140,3 +142,65 @@ The Astonishing Light
 Of your own Being!"
 
 Just because we cannot see our own light, or how 'brilliant' we are, doesn't mean it doesnt exist. I think Hafiz is reassuring us that even in our worst moments we are still creatures of the light.
+
+## Cast All Your Votes For Dancing
+ "I know the voice of depression
+Still calls to you.
+
+I know those habits that can ruin your life
+Still send their invitations."
+
+Its almost as if Hafiz is saying that its easy to fall in despair, its easy to be miserable. But even though it's easy, it never fills us.
+
+"But you are with the Friend now
+And look so much stronger.
+
+You can stay that way
+And even bloom!"
+
+When we let go of what we know (the voice of depression), we have to trust the Friend (God - Hafiz uses the term 'Friend' to describe God often)
+
+"Keep squeezing drops of the Sun
+From your prayers and work and music
+And from your companions’ beautiful laughter."
+
+Despite the despair, there are ways for us to quench our parched souls. Our souls will always crave light and luckily we can get light.
+
+"Keep squeezing drops of the Sun
+From the sacred hands and glance of your Beloved
+And, my dear,
+From the most insignificant movements
+Of your own holy body."
+
+
+I think this means that God (our Beloved) sends signs of his love which are often subtle. 
+
+Perhaps the second part of this stanza is talking about how our body already knows where to find this light, but our mind doesn't.
+
+"Learn to recognize the counterfeit coins
+That may buy you just a moment of pleasure,
+But then drag you for days
+Like a broken man
+Behind a farting camel."
+
+The temporary things that bring us pleasure are cheap but hurt us. Also Hafiz is ridiculously comedic at times.
+
+"You are with the Friend now.
+Learn what actions of yours delight Him,
+What actions of yours bring freedom
+And Love."
+
+To me, this is about letting go of what we think we should be doing and surrendering (and trusting) the Friend to lead us.
+
+"Whenever you say God’s name, dear pilgrim,
+My ears wish my head was missing
+So they could finally kiss each other
+And applaud all your nourishing wisdom!"
+
+Remembering God (or rather that there is more to life than whats immediately in front of us) is nourishing for our soul.
+
+"Now, sweet one,
+Be wise.
+Cast all your votes for Dancing!"
+
+Let go and simply trust in the rythm of life. Like a dance, where singular movements don't always make sense, added together it creates a beautiful performance. So I think Hafiz is priming us to lighten up because to be with the Friend we must be light.
