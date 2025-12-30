@@ -28,6 +28,9 @@ This book singlehandedly shifted my entire perspective on God, from an authorita
 # Parts of the whole
 So on this page I want to record my reflections on his poetry as I continue to reread them. The order of peoms follows the order in the book I heard God Laughing By Daniel Ladinsky, with each heading being the corresponding title in the book. This is my analysis of what I think each poem means.
 
+# You Are With The Friend Now
+Hafiz prepares us for the journey of love.
+
 ## A Divine Invitation
 "We can come to God
 Dressed for Dancing,
@@ -204,3 +207,44 @@ Be wise.
 Cast all your votes for Dancing!"
 
 Let go and simply trust in the rythm of life. Like a dance, where singular movements don't always make sense, added together it creates a beautiful performance. So I think Hafiz is priming us to lighten up because to be with the Friend we must be light.
+
+Like dancing, what we are meant to be doing is already innate to us. Dancing transcends languages and is intuitive. All we have to do is follow the rhythm, our body and soul already knows what its doing.
+
+# Come To My House
+## What Happens
+"What happens when your soul
+Begins to awaken
+Your eyes
+And your heart
+And the cells of your body
+To the great Journey of Love?"
+
+The journey of love starts from the soul, the rest of the body follows automatically when the first step is taken.
+
+"First there is wonderful laughter
+And probably precious tears
+
+And a hundred sweet promises
+And those heroic vows
+No one can ever keep."
+
+When our soul awakens, do we feel this urge to makeup for lost time with our new discoveries. Its aslmost as though we go through the stages of grief as part of the journey.
+
+"But still God is delighted and amused
+You once tried to be a saint."
+
+Do we try and apporach this new relationship to God the same that we do our attachments? And it doesn't work beacuse this is different. Whats required is different and so much lighter.
+
+"What happens when your soul
+Begins to awake in this world
+
+To our deep need to love
+And serve the Friend?
+
+O the Beloved
+Will send you
+One of His wonderful, wild companions—
+
+Like Hafiz."
+
+We find Hafiz at the exact right time we were supposed to, no sooner or later. And its almost as if Hafiz is saying he and his poetry are gifts from God to us to help us on this journey.
