@@ -1,7 +1,7 @@
 ---
 title: Persuasion
 emoji: 📗
-date_started: 2025-19-12
+date_started: 2025-12-19
 tags:
   - Jane Austen
   - literature
